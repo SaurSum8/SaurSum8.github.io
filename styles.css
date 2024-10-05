@@ -58,8 +58,14 @@ main {
   margin-bottom: 2rem;
 }
 
+.about-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .about-image img {
-  width: 100%;
+  width: 50%;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
@@ -94,6 +100,30 @@ form {
   width: 0 auto;
   margin: 0 auto;
   text-align: center;
+}
+
+.project {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.project img {
+  max-width: 100%;
+  height: auto;
+  margin-right: 20px;
+}
+
+.project-description {
+  max-width: 400px;
+}
+
+.project-description h2 {
+  margin: 0;
+}
+
+.project-description p {
+  margin-top: 10px;
 }
 
 /* Footer Styles */
